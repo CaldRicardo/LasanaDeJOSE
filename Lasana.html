@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tiempo para Preparar Lasaña</title>
+    <link rel="stylesheet" href="Lasana.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Tiempo para Preparar Lasaña</h1>
+        <div class="form-group">
+            <label for="layers">Número de capas de lasaña:</label>
+            <input type="number" id="layers" placeholder="Introduce el número de capas">
+        </div>
+        <div class="form-group">
+            <label for="timeInOven">Tiempo actual en el horno (en minutos):</label>
+            <input type="number" id="timeInOven" placeholder="Introduce el tiempo en el horno">
+        </div>
+        <button id="calculateBtn">Calcular</button>
+        <div id="results" class="results">
+            <p id="remainingTime">Tiempo restante en el horno: </p>
+            <p id="prepTime">Tiempo total de preparación: </p>
+            <p id="totalTime">Tiempo total de trabajo: </p>
+        </div>
+    </div>
+    <script src="Lasana.js"></script>
+</body>
+</html>
